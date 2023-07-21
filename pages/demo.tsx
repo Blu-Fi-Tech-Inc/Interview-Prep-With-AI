@@ -307,34 +307,34 @@ export default function DemoPage() {
         <div className="w-full min-h-screen flex flex-col px-4 pt-2 pb-8 md:px-8 md:py-2 bg-[#FCFCFC] relative overflow-x-hidden">
           <p className="absolute w-full top-0 h-[60px] flex flex-row justify-between -ml-4 md:-ml-8">
             <span className="text-sm text-[#1a2b3b] font-medium">
-              demo interview
+              interview
             </span>
             <span className="text-sm text-[#1a2b3b] font-medium opacity-20">
-              demo interview
+              interview
             </span>
             <span className="text-sm text-[#1a2b3b] font-medium">
-              demo interview
+              interview
             </span>
             <span className="text-sm text-[#1a2b3b] font-medium opacity-20 hidden sm:block">
-              demo interview
+              interview
             </span>
             <span className="text-sm text-[#1a2b3b] font-medium hidden sm:block">
-              demo interview
+              interview
             </span>
             <span className="text-sm text-[#1a2b3b] font-medium opacity-20 hidden xl:block">
-              demo interview
+              interview
             </span>
             <span className="text-sm text-[#1a2b3b] font-medium opacity-20 hidden sm:block">
-              demo interview
+              interview
             </span>
             <span className="text-sm text-[#1a2b3b] font-medium opacity-20 hidden sm:block">
-              demo interview
+              interview
             </span>
             <span className="text-sm text-[#1a2b3b] font-medium hidden sm:block">
-              demo interview
+              interview
             </span>
             <span className="text-sm text-[#1a2b3b] font-medium opacity-20 hidden xl:block">
-              demo interview
+              interview
             </span>
           </p>
           {completed ? (
@@ -390,7 +390,7 @@ export default function DemoPage() {
                   </p>
                 </div>
                 <Link
-                  href="https://github.com/Tameyer41/liftoff"
+                  href="https://github.com/Blu-Fi-Tech-Inc/Interview-Prep-With-AI"
                   target="_blank"
                   className="group rounded-full pl-[8px] min-w-[180px] pr-4 py-2 text-[13px] font-semibold transition-all flex items-center justify-center bg-[#1E2B3A] text-white hover:[linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), #0D2247] no-underline flex gap-x-2  active:scale-95 scale-100 duration-75"
                   style={{
@@ -525,18 +525,18 @@ export default function DemoPage() {
                               <source
                                 src={
                                   selectedInterviewer.name === "John"
-                                    ? selected.name === "Behavioral"
+                                    ? selected.name === "General"
                                       ? "https://liftoff-public.s3.amazonaws.com/DemoInterviewMale.mp4"
                                       : "https://liftoff-public.s3.amazonaws.com/JohnTechnical.mp4"
                                     : selectedInterviewer.name === "Richard"
-                                    ? selected.name === "Behavioral"
+                                    ? selected.name === "General"
                                       ? "https://liftoff-public.s3.amazonaws.com/RichardBehavioral.mp4"
                                       : "https://liftoff-public.s3.amazonaws.com/RichardTechnical.mp4"
                                     : selectedInterviewer.name === "Sarah"
-                                    ? selected.name === "Behavioral"
+                                    ? selected.name === "General"
                                       ? "https://liftoff-public.s3.amazonaws.com/BehavioralSarah.mp4"
                                       : "https://liftoff-public.s3.amazonaws.com/SarahTechnical.mp4"
-                                    : selected.name === "Behavioral"
+                                    : selected.name === "General"
                                     ? "https://liftoff-public.s3.amazonaws.com/DemoInterviewMale.mp4"
                                     : "https://liftoff-public.s3.amazonaws.com/JohnTechnical.mp4"
                                 }
@@ -810,22 +810,22 @@ export default function DemoPage() {
             className="absolute w-full md:w-1/2 top-0 h-[60px] flex flex-row justify-between"
           >
             <span className="text-sm text-[#1a2b3b] font-medium">
-              demo interview
+              interview
             </span>
             <span className="text-sm text-[#1a2b3b] font-medium opacity-20">
-              demo interview
+              interview
             </span>
             <span className="text-sm text-[#1a2b3b] font-medium">
-              demo interview
+              interview
             </span>
             <span className="text-sm text-[#1a2b3b] font-medium opacity-20 hidden sm:block">
-              demo interview
+              interview
             </span>
             <span className="text-sm text-[#1a2b3b] font-medium hidden sm:block">
-              demo interview
+              interview
             </span>
             <span className="text-sm text-[#1a2b3b] font-medium opacity-20 hidden xl:block">
-              demo interview
+              interview
             </span>
           </motion.p>
           <div className="w-full min-h-[60vh] md:w-1/2 md:h-screen flex flex-col px-4 pt-2 pb-8 md:px-0 md:py-2 bg-[#FCFCFC] justify-center">
@@ -1655,7 +1655,7 @@ export default function DemoPage() {
                       key={selected.id}
                       className="text-[#1a2b3b] text-[14px] leading-[18px] font-semibold absolute"
                     >
-                      {selected.name === "Behavioral"
+                      {selected.name === "General"
                         ? "Tell me about yourself"
                         : selectedInterviewer.name === "John"
                         ? "What is a Hash Table, and what is the average case for each of its operations?"
@@ -1665,7 +1665,7 @@ export default function DemoPage() {
                     </motion.span>
 
                     <ul className="mt-[28px] flex">
-                      {selected.name === "Behavioral" ? (
+                      {selected.name === "General" ? (
                         <li className="list-none max-w-[400px]">
                           Start off by walking me through your resume. Perhaps
                           begin with your internships in college and move to
@@ -1748,7 +1748,7 @@ export default function DemoPage() {
                   </ul>
                 )}
                 {step === 1 &&
-                  (selected.name === "Behavioral" ? (
+                  (selected.name === "General" ? (
                     <motion.ul
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
