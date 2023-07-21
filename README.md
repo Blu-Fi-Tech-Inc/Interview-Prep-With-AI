@@ -1,5 +1,6 @@
+![PrepMe (1200 × 630 px)](https://github.com/Blu-Fi-Tech-Inc/Interview-Prep-With-AI/assets/98633589/717949e4-7e69-4100-94cb-7c9b4f0bac12)
 <a href="https://prepme.blufitech.com">
-  <img alt="PrepMe – AI Generated Interviews" src="https://demo.useliftoff.com/opengraph-image">
+  "PrepMe – AI Generated Interviews"
   <h1 align="center">Interview-Prep-With-AI</h1>
 </a>
 
