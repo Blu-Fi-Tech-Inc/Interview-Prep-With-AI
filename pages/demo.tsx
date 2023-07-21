@@ -9,7 +9,7 @@ import { createFFmpeg, fetchFile } from "@ffmpeg/ffmpeg";
 const questions = [
   {
     id: 1,
-    name: "Behavioral",
+    name: "General",
     description: "From LinkedIn, Amazon, Adobe",
     difficulty: "Easy",
   },
@@ -193,7 +193,7 @@ export default function DemoPage() {
       formData.append("model", "whisper-1");
 
       const question =
-        selected.name === "Behavioral"
+        selected.name === "General"
           ? `Tell me about yourself. Why don${`’`}t you walk me through your resume?`
           : selectedInterviewer.name === "John"
           ? "What is a Hash Table, and what is the average case and worst case time for each of its operations?"
@@ -235,7 +235,7 @@ export default function DemoPage() {
           const prompt = `Please give feedback on the following interview question: ${question} given the following transcript: ${
             results.transcript
           }. ${
-            selected.name === "Behavioral"
+            selected.name === "General"
               ? "Please also give feedback on the candidate's communication skills. Make sure their response is structured (perhaps using the STAR or PAR frameworks)."
               : "Please also give feedback on the candidate's communication skills. Make sure they accurately explain their thoughts in a coherent way. Make sure they stay on topic and relevant to the question."
           } \n\n\ Feedback on the candidate's response:`;
@@ -460,7 +460,7 @@ export default function DemoPage() {
               {recordingPermission ? (
                 <div className="w-full flex flex-col max-w-[1080px] mx-auto justify-center">
                   <h2 className="text-2xl font-semibold text-left text-[#1D2B3A] mb-2">
-                    {selected.name === "Behavioral"
+                    {selected.name === "General"
                       ? `Tell me about yourself. Why don${`’`}t you walk me through your resume?`
                       : selectedInterviewer.name === "John"
                       ? "What is a Hash Table, and what is the average case and worst case time for each of its operations?"
