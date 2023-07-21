@@ -11,8 +11,8 @@
   <a href="https://linkedin.com/in/blufitechnology">
     <img src="https://img.shields.io/linkedin/follow/blufitechnology_me?style=flat&label=Follow&logo=linkedin&color=0bf&logoColor=fff" alt="blufitechnology's follower count" />
   </a>
-  <a href="https://github.com/blufitech">
-    <img src="https://img.shields.io/github/stars/blufitech/interview-prep-with-ai?label=blufitech%2Finterview-prep-with-ai" alt="interview-prep-with-ai repo star count" />
+  <a href="https://github.com/blu-fi-tech-inc">
+    <img src="https://img.shields.io/github/stars/blu-fi-tech-inc/interview-prep-with-ai?label=blufitech%2Finterview-prep-with-ai" alt="interview-prep-with-ai repo star count" />
   </a>
 </p>
 
