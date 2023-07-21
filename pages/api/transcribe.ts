@@ -1,4 +1,3 @@
-import * as dotenv from 'dotenv';
 import { Configuration, OpenAIApi } from "openai";
 import { IncomingForm } from "formidable";
 const fs = require("fs");
