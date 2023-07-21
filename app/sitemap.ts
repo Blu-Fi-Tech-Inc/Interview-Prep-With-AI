@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-      url: "https://prepme.blufitech.com",
+      url: "https://prepme.blufitech.com/demo",
       lastModified: new Date(),
     },
   ];
