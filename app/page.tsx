@@ -59,7 +59,7 @@ export default function Home() {
             className="relative md:ml-[-10px] md:mb-[37px] font-extrabold text-[16vw] md:text-[130px] font-inter text-[#1E2B3A] leading-[0.9] tracking-[-2px] z-[100]"
           >
             Elevate your <br />
-            tech <span className="text-[#407BBF]">interviews</span>
+            job <span className="text-[#407BBF]">interviews</span>
             <span className="font-inter text-[#407BBF]">.</span>
           </motion.h1>
           <motion.div
@@ -86,8 +86,8 @@ export default function Home() {
                 Community
               </h2>
               <p className="text-[14px] leading-[20px] text-[#1a2b3b] font-normal">
-                Join a community of like-minded individuals, and learn from each
-                other.
+                Join a community of like-minded individuals, learn from each
+                other and build together.
               </p>
             </div>
           </motion.div>
@@ -103,7 +103,7 @@ export default function Home() {
               }}
             >
               <Link
-                href="https://github.com/Tameyer41/liftoff"
+                href="https://github.com/Blu-Fi-Tech-Inc"
                 target="_blank"
                 className="group rounded-full pl-[8px] min-w-[180px] pr-4 py-2 text-[13px] font-semibold transition-all flex items-center justify-center bg-[#1E2B3A] text-white hover:[linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), #0D2247] no-underline flex gap-x-2  active:scale-95 scale-100 duration-75"
                 style={{
