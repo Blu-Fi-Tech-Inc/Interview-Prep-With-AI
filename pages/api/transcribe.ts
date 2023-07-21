@@ -1,6 +1,9 @@
+import * as dotenv from 'dotenv';
 import { Configuration, OpenAIApi } from "openai";
 import { IncomingForm } from "formidable";
 const fs = require("fs");
+
+dotenv.config();
 
 export const config = {
   api: {
@@ -10,8 +13,8 @@ export const config = {
 
 export default async function handler(req: any, res: any) {
   const configuration = new Configuration({
-    apiKey: process.env.OPENAI_API_KEY,
-  });
+  apiKey: process.env.OPENAI_API_KEY,
+});
   const openai = new OpenAIApi(configuration);
 
   // Here, we create a temporary file to store the audio file using Vercel's tmp directory
