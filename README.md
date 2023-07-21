@@ -42,7 +42,7 @@ npx create-next-app interview-prep-with-ai --example "https://github.com/Blu-Fi-
 
 ## Tech Stack + Features
 
-![Landing Page](https://ik.imagekit.io/9km72asqu/CleanShot_2023-05-31_at_12.43.54_svKkqF7dA.png?updatedAt=1685551454273)
+![Landing Page](https://www.canva.com/design/DAFpOt5MYDM/fyd8tA1hcSsxHMtVLiI1kg/view?mode=prototype)
 
 ![Interview Selection](https://ik.imagekit.io/9km72asqu/CleanShot_2023-05-31_at_13.35.55_xohCRNMlJ.png?updatedAt=1685554576155)
 
