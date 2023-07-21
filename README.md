@@ -9,10 +9,10 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/blufitechnology">
-    <img src="https://img.shields.io/linkedin/follow/blufitechnology_me?style=flat&label=Follow&logo=linkedin&color=0bf&logoColor=fff" alt="blufitechnology's follower count" />
+    <img src="https://media.licdn.com/dms/image/D4E16AQFYrBlcm7c76A/profile-displaybackgroundimage-shrink_350_1400/0/1689931877588?e=1695254400&v=beta&t=slb4a7CgykFnkBpYhgzG2SHONr62cFM-rnNq3zw0svw" width="150" height="45" alt="blufitechnology's follower count" />
   </a>
   <a href="https://github.com/blu-fi-tech-inc">
-    <img src="https://img.shields.io/github/stars/blu-fi-tech-inc/interview-prep-with-ai?label=blufitech%2Finterview-prep-with-ai" alt="interview-prep-with-ai repo star count" />
+    <img src="https://img.shields.io/github/stars/blu-fi-tech-inc/interview-prep-with-ai?label=blu-fi-tech-inc%2Finterview-prep-with-ai" alt="interview-prep-with-ai repo star count" />
   </a>
 </p>
 
