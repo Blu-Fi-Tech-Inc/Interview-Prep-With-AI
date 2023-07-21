@@ -2,26 +2,26 @@ import "../styles/globals.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Liftoff - AI-Powered Mock Interviews",
+  title: "Interview-Prep-With-AI",
   openGraph: {
-    title: "Liftoff - AI-Powered Mock Interviews",
+    title: "Interview-Prep-With-AI",
     description:
-      "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
+      "PrepMe is an AI-powered mock interview platform that helps you practice for your next job interview.",
     images: [
       {
-        url: "https://demo.useliftoff.com/opengraph-image",
+        url: "https://www.canva.com/design/DAFpOt5MYDM/fyd8tA1hcSsxHMtVLiI1kg/view?mode=prototype",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Liftoff - AI-Powered Mock Interviews",
+    title: "Interview-Prep-With-AI",
     description:
-      "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
-    images: ["https://demo.useliftoff.com/opengraph-image"],
-    creator: "@tmeyer_me",
+    "PrepMe is an AI-powered mock interview platform that helps you practice for your next job interview.",
+    images: ["https://www.canva.com/design/DAFpOt5MYDM/fyd8tA1hcSsxHMtVLiI1kg/view?mode=prototype"],
+    creator: "@blufitechnology",
   },
-  metadataBase: new URL("https://demo.useliftoff.com"),
+  metadataBase: new URL("https://prepme.blufitech.com"),
   themeColor: "#FFF",
 };
 
