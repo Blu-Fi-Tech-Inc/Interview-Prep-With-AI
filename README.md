@@ -43,9 +43,9 @@ npx create-next-app interview-prep-with-ai --example "https://github.com/Blu-Fi-
 
 ## Tech Stack + Features
 
-![Landing Page](https://prepme.blufitech.com/opengraph-image?9266f66145e38d0c)
+Landing Page (https://prepme.blufitech.com/)
 
-![Interview Selection](https://prepme.blufitech.com/demo)
+Interview Selection (https://prepme.blufitech.com/demo)
 
 ### Frameworks
 
